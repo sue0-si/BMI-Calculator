@@ -21,6 +21,11 @@ class _MyHomePageState extends State<MyHomePage> {
           // Row 안의 값들을 정렬
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Container(
+              color: Colors.red,
+              width: 100,
+              height: 100,
+            ),
             const Text(
               'Counts',
               style: TextStyle(
